@@ -1,0 +1,145 @@
+/* Navbar */
+
+.nav-item {
+  padding: 1rem;
+}
+
+.nav-link {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 45px;
+  text-decoration: none;
+  color: #0d0d0d;
+}
+.nav-btn {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  /* identical to box height */
+  padding: 12px 40px;
+  color: #ffffff;
+  background: #ff385c;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+  border-style: none;
+  border-radius: 10px;
+}
+.nav-link:hover {
+  color: #ff868a;
+  font-size: 34px;
+  font-weight: bold;
+}
+.nav-link:active {
+  color: #ff868a;
+  font-size: 34px;
+  font-weight: bold;
+}
+.home-row-1 {
+  margin-top: 160px;
+}
+.home-heading {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+
+  color: #333333;
+}
+.home-content {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+
+  color: #000000;
+}
+.btn-startup {
+  background: #ff385c;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-style: none;
+  padding: 12px 27px;
+  margin: 3% 6%;
+  margin-left: 0%;
+  border-radius: 10px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.btn-student {
+  border: 1px solid #ff385c;
+  background-color: #fff;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-family: Poppins;
+  padding: 12px 24px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  /* identical to box height */
+
+  color: #ff385c;
+}
+.freelance-heading {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 90px;
+  text-align: center;
+  color: #333333;
+}
+.freelance-content {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #000000;
+}
+.freelance-card {
+  background: #ffffff;
+  border: 2px solid #ff385c;
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 25px;
+}
+.freelance-card-content {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 37px;
+
+  color: #000000;
+}
+.freelance-row-1 {
+  margin: 5%;
+}
+.freelance-row-2 {
+  margin: 5%;
+}
+.freelance-row-3 {
+  margin: 5%;
+}
+.our-services {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 90px;
+  text-align: center;
+  color: #333333;
+}
