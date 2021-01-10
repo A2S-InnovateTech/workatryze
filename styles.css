@@ -244,7 +244,7 @@
 
 @import url(//cdn.rawgit.com/rtaibah/dubai-font-cdn/master/dubai-font.css);
 
-*,
+/* *,
 *:after,
 *:before {
   margin: 0;
@@ -260,21 +260,18 @@
   -moz-user-select: none;
   user-select: none;
   cursor: default;
-}
-
-.testim {
-  background-color: #1e1515;
+} */
+/* .testim {
   width: 100%;
-  margin-top: 15%;
-  margin-bottom: 0;
   -webkit-transform: translatey(-50%);
   -moz-transform: translatey(-50%);
   -ms-transform: translatey(-50%);
   -o-transform: translatey(-50%);
   transform: translatey(-50%);
-}
+} */
 
 .testim .wrap {
+  position: relative;
   width: 100%;
   max-width: 1020px;
   padding: 40px 20px;
@@ -284,7 +281,7 @@
 .testim .arrow {
   display: block;
   position: absolute;
-  color: #eee;
+  color: #4d4b4b;
   cursor: pointer;
   font-size: 2em;
   top: 50%;
@@ -298,7 +295,7 @@
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  padding: 100px;
+  padding: 5px;
   z-index: 22222222;
 }
 
@@ -311,13 +308,11 @@
 }
 
 .testim .arrow.left {
-  left: 5px;
-  padding-left: 0%;
+  left: 10px;
 }
 
 .testim .arrow.right {
-  right: 5px;
-  padding-right: 0%;
+  right: 10px;
 }
 
 .testim .dots {
@@ -337,7 +332,8 @@
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  border: 1px solid #eee;
+  background-color: grey;
+  border: 1px solid grey;
   margin: 0 10px;
   cursor: pointer;
   -webkit-transition: all 0.5s ease-in-out;
@@ -401,12 +397,8 @@
 
 .testim .cont div p {
   font-size: 30px;
-  color: #eee;
+  color: rgb(39, 35, 35);
   width: 80%;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  text-align: center;
   margin: auto;
 }
 
@@ -850,4 +842,60 @@
   .testim .cont div p {
     line-height: 25px;
   }
+}
+
+/* Contact Us */
+
+.contact-container {
+  background-color: #fff8f8;
+  text-align: center;
+}
+.contact-heading {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 90px;
+
+  color: #333333;
+}
+.contact-content {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+
+  color: #000000;
+}
+.input-box {
+  width: 619px;
+  height: 76px;
+  margin-bottom: 54px;
+  padding-left: 35px;
+  background: #ffffff;
+  border: 1px solid #ff385c;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 52px;
+  /* identical to box height */
+
+  color: #5a5959;
+}
+.contact-btn {
+  background: #ff385c;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 52px;
+  /* identical to box height */
+  padding: 7px 70px;
+  color: #ffffff;
 }
