@@ -443,17 +443,21 @@ body {
 .testim .cont div .img img {
   display: block;
   width: 100px;
+  float: left;
   height: 100px;
-  margin: auto;
+  margin-right: 30px;
   border-radius: 50%;
 }
-
-.testim .cont div h2 {
-  color: #ea830e;
-  font-size: 36px;
-  margin: 15px 0;
+.testim .cont div .img {
+  width: 60%;
+  margin: 3rem auto;
 }
-
+.testim .cont div .img h2 {
+  color: #ea830e;
+  font-size: 20px;
+  margin: 15px 0;
+  text-align: left;
+}
 .testim .cont div p {
   font-size: 30px;
   color: rgb(39, 35, 35);
@@ -461,6 +465,20 @@ body {
   margin: auto;
 }
 
+.testim .cont div .img .fa-star {
+  font-size: 20px;
+  margin-top: 25px;
+  color: #ffdf00;
+  text-align: left;
+}
+
+.testim .cont div .img p {
+  font-size: 20px;
+  color: rgb(39, 35, 35);
+  /* width: 80%; */
+  margin: auto;
+  text-align: left;
+}
 .testim .cont div.active .img img {
   -webkit-animation: testim-show 0.5s ease-in-out forwards;
   -moz-animation: testim-show 0.5s ease-in-out forwards;
@@ -508,7 +526,20 @@ body {
   -o-animation: testim-content-out 0.5s ease-in-out forwards;
   animation: testim-content-out 0.5s ease-in-out forwards;
 }
-
+.testim .cont div.inactive .fa-star {
+  -webkit-animation: testim-hide 0.5s ease-in-out forwards;
+  -moz-animation: testim-hide 0.5s ease-in-out forwards;
+  -ms-animation: testim-hide 0.5s ease-in-out forwards;
+  -o-animation: testim-hide 0.5s ease-in-out forwards;
+  animation: testim-hide 0.5s ease-in-out forwards;
+}
+.testim .cont div.active .fa-star {
+  -webkit-animation: testim-show 0.5s ease-in-out forwards;
+  -moz-animation: testim-show 0.5s ease-in-out forwards;
+  -ms-animation: testim-show 0.5s ease-in-out forwards;
+  -o-animation: testim-show 0.5s ease-in-out forwards;
+  animation: testim-show 0.5s ease-in-out forwards;
+}
 @-webkit-keyframes testim-scale {
   0% {
     -webkit-box-shadow: 0px 0px 0px 0px #eee;
