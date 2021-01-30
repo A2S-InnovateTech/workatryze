@@ -242,8 +242,225 @@ body {
     float: left;
   }
 } */
-.service-img {
+.service-img-1 {
   margin: 40px;
+  background: url("images/javascript-ConvertImage.png") no-repeat;
+  display: inline-block !important;
+  width: 120px !important;
+  height: 120px !important;
+  background-position: center;
+  background-size: contain;
+  text-align: center;
+  transition: all 0.5s ease-in-out !important;
+}
+.service-img-1:hover {
+  margin: 40px;
+  background: url("images/javascript.png") no-repeat;
+  display: inline-block !important;
+  width: 120px !important;
+  height: 120px !important;
+  background-position: center;
+  background-size: contain;
+  text-align: center;
+  transition: all 0.5s ease-in-out !important;
+}
+.service-img-2 {
+  margin: 40px;
+  background: url("images/html-ConvertImage.png") no-repeat;
+  display: inline-block !important;
+  width: 120px !important;
+  height: 120px !important;
+  background-position: center;
+  background-size: contain;
+  text-align: center;
+  transition: all 0.5s ease-in-out !important;
+}
+.service-img-2:hover {
+  margin: 40px;
+  background: url("images/html.png") no-repeat;
+  display: inline-block !important;
+  width: 120px !important;
+  height: 120px !important;
+  background-position: center;
+  background-size: contain;
+  text-align: center;
+  transition: all 0.5s ease-in-out !important;
+}
+.service-img-3 {
+  margin: 40px;
+  background: url("images/css-ConvertImage.png") no-repeat;
+  display: inline-block !important;
+  width: 120px !important;
+  height: 120px !important;
+  background-position: center;
+  background-size: contain;
+  text-align: center;
+  transition: all 0.5s ease-in-out !important;
+}
+.service-img-3:hover {
+  margin: 40px;
+  background: url("images/css.png") no-repeat;
+  display: inline-block !important;
+  width: 120px !important;
+  height: 120px !important;
+  background-position: center;
+  background-size: contain;
+  text-align: center;
+  transition: all 0.5s ease-in-out !important;
+}
+.service-img-4 {
+  margin: 40px;
+  background: url("images/python-ConvertImage.png") no-repeat;
+  display: inline-block !important;
+  width: 120px !important;
+  height: 120px !important;
+  background-position: center;
+  background-size: contain;
+  text-align: center;
+  transition: all 0.5s ease-in-out !important;
+}
+.service-img-4:hover {
+  margin: 40px;
+  background: url("images/python.png") no-repeat;
+  display: inline-block !important;
+  width: 120px !important;
+  height: 120px !important;
+  background-position: center;
+  background-size: contain;
+  text-align: center;
+  transition: all 0.5s ease-in-out !important;
+}
+.service-img-5 {
+  margin: 40px;
+  background: url("images/dart-ConvertImage.png") no-repeat;
+  display: inline-block !important;
+  width: 120px !important;
+  height: 120px !important;
+  background-position: center;
+  background-size: contain;
+  text-align: center;
+  transition: all 0.5s ease-in-out !important;
+}
+.service-img-5:hover {
+  margin: 40px;
+  background: url("images/dart.png") no-repeat;
+  display: inline-block !important;
+  width: 120px !important;
+  height: 120px !important;
+  background-position: center;
+  background-size: contain;
+  text-align: center;
+  transition: all 0.5s ease-in-out !important;
+}
+.service-img-6 {
+  margin: 40px;
+  background: url("images/react-ConvertImage.png") no-repeat;
+  display: inline-block !important;
+  width: 120px !important;
+  height: 120px !important;
+  background-position: center;
+  background-size: contain;
+  text-align: center;
+  transition: all 0.5s ease-in-out !important;
+}
+.service-img-6:hover {
+  margin: 40px;
+  background: url("images/react.png") no-repeat;
+  display: inline-block !important;
+  width: 120px !important;
+  height: 120px !important;
+  background-position: center;
+  background-size: contain;
+  text-align: center;
+  transition: all 0.5s ease-in-out !important;
+}
+.service-img-7 {
+  margin: 40px;
+  background: url("images/django-ConvertImage.png") no-repeat;
+  display: inline-block !important;
+  width: 120px !important;
+  height: 120px !important;
+  background-position: center;
+  background-size: contain;
+  text-align: center;
+  transition: all 0.5s ease-in-out !important;
+}
+.service-img-7:hover {
+  margin: 40px;
+  background: url("images/django.png") no-repeat;
+  display: inline-block !important;
+  width: 120px !important;
+  height: 120px !important;
+  background-position: center;
+  background-size: contain;
+  text-align: center;
+  transition: all 0.5s ease-in-out !important;
+}
+.service-img-8 {
+  margin: 40px;
+  background: url("images/wordpress-ConvertImage.png") no-repeat;
+  display: inline-block !important;
+  width: 120px !important;
+  height: 120px !important;
+  background-position: center;
+  background-size: contain;
+  text-align: center;
+  transition: all 0.5s ease-in-out !important;
+}
+.service-img-8:hover {
+  margin: 40px;
+  background: url("images/wordpress.png") no-repeat;
+  display: inline-block !important;
+  width: 120px !important;
+  height: 120px !important;
+  background-position: center;
+  background-size: contain;
+  text-align: center;
+  transition: all 0.5s ease-in-out !important;
+}
+.service-img-9 {
+  margin: 40px;
+  background: url("images/flutter-ConvertImage.png") no-repeat;
+  display: inline-block !important;
+  width: 120px !important;
+  height: 120px !important;
+  background-position: center;
+  background-size: contain;
+  text-align: center;
+  transition: all 0.5s ease-in-out !important;
+}
+.service-img-9:hover {
+  margin: 40px;
+  background: url("images/flutter.png") no-repeat;
+  display: inline-block !important;
+  width: 120px !important;
+  height: 120px !important;
+  background-position: center;
+  background-size: contain;
+  text-align: center;
+  transition: all 0.5s ease-in-out !important;
+}
+.service-img-10 {
+  margin: 40px;
+  background: url("images/node-ConvertImage.png") no-repeat;
+  display: inline-block !important;
+  width: 120px !important;
+  height: 120px !important;
+  background-position: center;
+  background-size: contain;
+  text-align: center;
+  transition: all 0.5s ease-in-out !important;
+}
+.service-img-10:hover {
+  margin: 40px;
+  background: url("images/node.png") no-repeat;
+  display: inline-block !important;
+  width: 120px !important;
+  height: 120px !important;
+  background-position: center;
+  background-size: contain;
+  text-align: center;
+  transition: all 0.5s ease-in-out !important;
 }
 .expect {
   font-family: Poppins;
@@ -279,8 +496,8 @@ body {
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
-  font-size: 40px;
-  line-height: 60px;
+  font-size: 32px;
+  line-height: 45px;
   margin-top: 50px;
   color: #ffffff;
 }
@@ -288,7 +505,7 @@ body {
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
-  font-size: 30px;
+  font-size: 25px;
   line-height: 36px;
   margin-top: 30px;
   color: #ffffff;
@@ -1172,9 +1389,230 @@ body {
     border-radius: 5px;
     text-align: center;
   }
-  .service-img {
+
+  .service-img-1 {
     margin: 20px;
-    width: 70px;
+    background: url("images/javascript-ConvertImage.png") no-repeat;
+    display: inline-block !important;
+    width: 40px !important;
+    height: 40px !important;
+    background-position: center;
+    background-size: contain;
+    text-align: center;
+    transition: all 0.5s ease-in-out !important;
+  }
+  .service-img-1:hover {
+    margin: 20px;
+    background: url("images/javascript.png") no-repeat;
+    display: inline-block !important;
+    width: 40px !important;
+    height: 40px !important;
+    background-position: center;
+    background-size: contain;
+    text-align: center;
+    transition: all 0.5s ease-in-out !important;
+  }
+  .service-img-2 {
+    margin: 20px;
+    background: url("images/html-ConvertImage.png") no-repeat;
+    display: inline-block !important;
+    width: 40px !important;
+    height: 40px !important;
+    background-position: center;
+    background-size: contain;
+    text-align: center;
+    transition: all 0.5s ease-in-out !important;
+  }
+  .service-img-2:hover {
+    margin: 20px;
+    background: url("images/html.png") no-repeat;
+    display: inline-block !important;
+    width: 40px !important;
+    height: 40px !important;
+    background-position: center;
+    background-size: contain;
+    text-align: center;
+    transition: all 0.5s ease-in-out !important;
+  }
+  .service-img-3 {
+    margin: 20px;
+    background: url("images/css-ConvertImage.png") no-repeat;
+    display: inline-block !important;
+    width: 40px !important;
+    height: 40px !important;
+    background-position: center;
+    background-size: contain;
+    text-align: center;
+    transition: all 0.5s ease-in-out !important;
+  }
+  .service-img-3:hover {
+    margin: 20px;
+    background: url("images/css.png") no-repeat;
+    display: inline-block !important;
+    width: 40px !important;
+    height: 40px !important;
+    background-position: center;
+    background-size: contain;
+    text-align: center;
+    transition: all 0.5s ease-in-out !important;
+  }
+  .service-img-4 {
+    margin: 20px;
+    background: url("images/python-ConvertImage.png") no-repeat;
+    display: inline-block !important;
+    width: 40px !important;
+    height: 40px !important;
+    background-position: center;
+    background-size: contain;
+    text-align: center;
+    transition: all 0.5s ease-in-out !important;
+  }
+  .service-img-4:hover {
+    margin: 20px;
+    background: url("images/python.png") no-repeat;
+    display: inline-block !important;
+    width: 40px !important;
+    height: 40px !important;
+    background-position: center;
+    background-size: contain;
+    text-align: center;
+    transition: all 0.5s ease-in-out !important;
+  }
+  .service-img-5 {
+    margin: 20px;
+    background: url("images/dart-ConvertImage.png") no-repeat;
+    display: inline-block !important;
+    width: 40px !important;
+    height: 40px !important;
+    background-position: center;
+    background-size: contain;
+    text-align: center;
+    transition: all 0.5s ease-in-out !important;
+  }
+  .service-img-5:hover {
+    margin: 20px;
+    background: url("images/dart.png") no-repeat;
+    display: inline-block !important;
+    width: 40px !important;
+    height: 40px !important;
+    background-position: center;
+    background-size: contain;
+    text-align: center;
+    transition: all 0.5s ease-in-out !important;
+  }
+  .service-img-6 {
+    margin: 20px;
+    background: url("images/react-ConvertImage.png") no-repeat;
+    display: inline-block !important;
+    width: 40px !important;
+    height: 40px !important;
+    background-position: center;
+    background-size: contain;
+    text-align: center;
+    transition: all 0.5s ease-in-out !important;
+  }
+  .service-img-6:hover {
+    margin: 20px;
+    background: url("images/react.png") no-repeat;
+    display: inline-block !important;
+    width: 40px !important;
+    height: 40px !important;
+    background-position: center;
+    background-size: contain;
+    text-align: center;
+    transition: all 0.5s ease-in-out !important;
+  }
+  .service-img-7 {
+    margin: 20px;
+    background: url("images/django-ConvertImage.png") no-repeat;
+    display: inline-block !important;
+    width: 40px !important;
+    height: 40px !important;
+    background-position: center;
+    background-size: contain;
+    text-align: center;
+    transition: all 0.5s ease-in-out !important;
+  }
+  .service-img-7:hover {
+    margin: 20px;
+    background: url("images/django.png") no-repeat;
+    display: inline-block !important;
+    width: 40px !important;
+    height: 40px !important;
+    background-position: center;
+    background-size: contain;
+    text-align: center;
+    transition: all 0.5s ease-in-out !important;
+  }
+  .service-img-8 {
+    margin: 20px;
+    background: url("images/wordpress-ConvertImage.png") no-repeat;
+    display: inline-block !important;
+    width: 40px !important;
+    height: 40px !important;
+    background-position: center;
+    background-size: contain;
+    text-align: center;
+    transition: all 0.5s ease-in-out !important;
+  }
+  .service-img-8:hover {
+    margin: 20px;
+    background: url("images/wordpress.png") no-repeat;
+    display: inline-block !important;
+    width: 40px !important;
+    height: 40px !important;
+    background-position: center;
+    background-size: contain;
+    text-align: center;
+    transition: all 0.5s ease-in-out !important;
+  }
+  .service-img-9 {
+    margin: 20px;
+    background: url("images/flutter-ConvertImage.png") no-repeat;
+    display: inline-block !important;
+    width: 40px !important;
+    height: 40px !important;
+    background-position: center;
+    background-size: contain;
+    text-align: center;
+    transition: all 0.5s ease-in-out !important;
+  }
+  .service-img-9:hover {
+    margin: 20px;
+    background: url("images/flutter.png") no-repeat;
+    display: inline-block !important;
+    width: 40px !important;
+    height: 40px !important;
+    background-position: center;
+    background-size: contain;
+    text-align: center;
+    transition: all 0.5s ease-in-out !important;
+  }
+  .service-img-10 {
+    margin: 20px;
+    background: url("images/node-ConvertImage.png") no-repeat;
+    display: inline-block !important;
+    width: 40px !important;
+    height: 40px !important;
+    background-position: center;
+    background-size: contain;
+    text-align: center;
+    transition: all 0.5s ease-in-out !important;
+  }
+  .service-img-10:hover {
+    margin: 20px;
+    background: url("images/node.png") no-repeat;
+    display: inline-block !important;
+    width: 40px !important;
+    height: 40px !important;
+    background-position: center;
+    background-size: contain;
+    text-align: center;
+    transition: all 0.5s ease-in-out !important;
+  }
+  .service-img:hover {
+    margin: 10px;
+    width: 50px;
   }
   .expect {
     font-family: Poppins;
