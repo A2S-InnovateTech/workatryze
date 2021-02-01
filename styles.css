@@ -25,9 +25,10 @@ body {
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
-  font-size: 30px;
-  line-height: 45px;
-  /* identical to box height */
+  font-size: 16px;
+  white-space: nowrap;
+  line-height: 25px;
+  height: 50px;
   padding: 12px 40px;
   color: #ffffff;
   background: #ff385c;
@@ -492,13 +493,16 @@ body {
   box-shadow: 4px 7px 4px rgba(255, 233, 233, 0.25);
   border-radius: 20px;
 }
+.expect-card-image {
+  width: 100px;
+}
 .expect-card-title {
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
-  font-size: 32px;
+  font-size: 28px;
   line-height: 45px;
-  margin-top: 50px;
+  margin-top: 30px;
   color: #ffffff;
 }
 .expect-card-content {
@@ -507,7 +511,7 @@ body {
   font-weight: 500;
   font-size: 25px;
   line-height: 36px;
-  margin-top: 30px;
+  margin-top: 10px;
   color: #ffffff;
 }
 .happy-clients-container {
@@ -1308,14 +1312,14 @@ body {
     border: 2px solid #ff385c;
     box-sizing: border-box;
     border-radius: 20px;
-    padding: 20px;
+    padding: 10px;
   }
   .freelance-card-content {
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
-    line-height: 28px;
+    font-size: 12px;
+    line-height: 22px;
 
     color: #000000;
   }
@@ -1382,7 +1386,7 @@ body {
   .our-services-card-2 {
     width: 250px;
     margin: 0% auto;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     background: #ffffff;
     box-shadow: -12px 14px 18px rgba(255, 218, 218, 0.25),
       10px -9px 16px rgba(255, 208, 208, 0.25);
