@@ -7,7 +7,7 @@ body {
   padding: 1rem;
 }
 
-.nav-link {
+.hidden {
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
@@ -36,12 +36,12 @@ body {
   border-style: none;
   border-radius: 10px;
 }
-.nav-link:hover {
+.hidden:hover {
   color: #ff868a;
   font-size: 34px;
   font-weight: bold;
 }
-.nav-link:active {
+.hidden:active {
   color: #ff868a;
   font-size: 34px;
   font-weight: bold;
@@ -57,6 +57,10 @@ body {
   line-height: 72px;
   margin-bottom: 1rem;
   color: #333333;
+}
+.lottie-player-image {
+  height: 400px;
+  width: 400px;
 }
 .home-content {
   font-family: Inter;
@@ -1209,6 +1213,9 @@ body {
     text-decoration: none;
     color: #0d0d0d;
   }
+  .hidden {
+    display: none !important;
+  }
   .navbar-brand {
     width: 6rem;
     height: 3rem;
@@ -1226,7 +1233,7 @@ body {
     border-style: none;
     border-radius: 10px;
   }
-  .nav-link:hover {
+  /* .nav-link:hover {
     color: #ff868a;
     font-size: 25px;
     font-weight: bold;
@@ -1235,9 +1242,13 @@ body {
     color: #ff868a;
     font-size: 25px;
     font-weight: bold;
-  }
+  } */
   .home-row-1 {
     margin-top: 160px;
+  }
+  .lottie-player-image {
+    height: 300px;
+    width: 300px;
   }
   .home-heading {
     font-family: Poppins;
