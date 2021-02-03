@@ -4,22 +4,22 @@ body {
   margin: 0;
 }
 .nav-item {
-  padding: 1rem;
+  padding: 0.7rem;
 }
 
 .hidden {
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
-  font-size: 30px;
+  font-size: 22px;
   font-weight: 500;
   line-height: 45px;
   text-decoration: none;
   color: #0d0d0d;
 }
 .navbar-brand {
-  width: 9.8rem;
-  height: 5rem;
+  width: 7.35rem;
+  height: 3.75rem;
 }
 .nav-btn {
   font-family: Poppins;
@@ -38,12 +38,12 @@ body {
 }
 .hidden:hover {
   color: #ff868a;
-  font-size: 34px;
+  font-size: 25px;
   font-weight: bold;
 }
 .hidden:active {
   color: #ff868a;
-  font-size: 34px;
+  font-size: 25px;
   font-weight: bold;
 }
 .home-row-1 {
@@ -53,8 +53,8 @@ body {
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
-  font-size: 50px;
-  line-height: 72px;
+  font-size: 45px;
+  line-height: 60px;
   margin-bottom: 1rem;
   color: #333333;
 }
@@ -66,7 +66,7 @@ body {
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
-  font-size: 30px;
+  font-size: 26px;
   line-height: 36px;
 
   color: #000000;
@@ -75,14 +75,14 @@ body {
   background: #ff385c;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-style: none;
-  padding: 12px 27px;
+  padding: 9px 24px;
   margin: 3% 6%;
   margin-left: 0%;
   border-radius: 10px;
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
-  font-size: 30px;
+  font-size: 25px;
   line-height: 45px;
   /* identical to box height */
 
@@ -94,10 +94,10 @@ body {
   box-sizing: border-box;
   border-radius: 10px;
   font-family: Poppins;
-  padding: 12px 24px;
+  padding: 9px 21px;
   font-style: normal;
   font-weight: 600;
-  font-size: 30px;
+  font-size: 25px;
   line-height: 45px;
   /* identical to box height */
 
@@ -107,7 +107,7 @@ body {
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
-  font-size: 60px;
+  font-size: 50px;
   line-height: 90px;
   text-align: center;
   color: #333333;
@@ -116,7 +116,7 @@ body {
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
-  font-size: 30px;
+  font-size: 26px;
   line-height: 36px;
   text-align: center;
   color: #000000;
@@ -145,7 +145,7 @@ body {
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
-  font-size: 28px;
+  font-size: 22px;
   line-height: 37px;
 
   color: #000000;
@@ -171,8 +171,8 @@ body {
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
-  font-size: 60px;
-  line-height: 90px;
+  font-size: 50px;
+  line-height: 70px;
   text-align: center;
   color: #333333;
 }
@@ -187,7 +187,6 @@ body {
 }
 .our-services-card {
   width: 612px;
-  /* height: 378px; */
   background: #ffffff;
   box-shadow: -12px 14px 18px rgba(255, 218, 218, 0.25),
     10px -9px 16px rgba(255, 208, 208, 0.25);
@@ -201,7 +200,7 @@ body {
   font-family: Poppins;
   font-style: normal;
   font-weight: 300;
-  font-size: 25px;
+  font-size: 22px;
   line-height: 37px;
   margin: 22px;
   color: #000000;
@@ -217,9 +216,6 @@ body {
   border-radius: 5px;
   text-align: center;
 }
-.our-services-sub-card {
-  /* margin-left: 20px; */
-}
 .fa-check {
   margin: 10px;
   color: #38d600;
@@ -228,49 +224,18 @@ body {
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
-  font-size: 35px;
+  font-size: 30px;
   line-height: 52px;
   margin-left: 30px;
   margin-top: 40px;
   color: #000000;
 }
-/* .col-xs-15,
-.col-sm-15,
-.col-md-15,
-.col-lg-15 {
-  position: relative;
-  min-height: 1px;
-  padding-right: 10px;
-  padding-left: 10px;
-}
-.col-xs-15 {
-  width: 20%;
-  float: left;
-}
-@media (min-width: 768px) {
-  .col-sm-15 {
-    width: 20%;
-    float: left;
-  }
-}
-@media (min-width: 992px) {
-  .col-md-15 {
-    width: 20%;
-    float: left;
-  }
-}
-@media (min-width: 1200px) {
-  .col-lg-15 {
-    width: 20%;
-    float: left;
-  }
-} */
 .service-img-1 {
   margin: 40px;
   background: url("images/javascript-ConvertImage.png") no-repeat;
   display: inline-block !important;
-  width: 120px !important;
-  height: 120px !important;
+  width: 100px !important;
+  height: 100px !important;
   background-position: center;
   background-size: contain;
   text-align: center;
@@ -280,8 +245,8 @@ body {
   margin: 40px;
   background: url("images/javascript.png") no-repeat;
   display: inline-block !important;
-  width: 120px !important;
-  height: 120px !important;
+  width: 100px !important;
+  height: 100px !important;
   background-position: center;
   background-size: contain;
   text-align: center;
@@ -291,8 +256,8 @@ body {
   margin: 40px;
   background: url("images/html-ConvertImage.png") no-repeat;
   display: inline-block !important;
-  width: 120px !important;
-  height: 120px !important;
+  width: 100px !important;
+  height: 100px !important;
   background-position: center;
   background-size: contain;
   text-align: center;
@@ -302,8 +267,8 @@ body {
   margin: 40px;
   background: url("images/html.png") no-repeat;
   display: inline-block !important;
-  width: 120px !important;
-  height: 120px !important;
+  width: 100px !important;
+  height: 100px !important;
   background-position: center;
   background-size: contain;
   text-align: center;
@@ -313,8 +278,8 @@ body {
   margin: 40px;
   background: url("images/css-ConvertImage.png") no-repeat;
   display: inline-block !important;
-  width: 120px !important;
-  height: 120px !important;
+  width: 100px !important;
+  height: 100px !important;
   background-position: center;
   background-size: contain;
   text-align: center;
@@ -324,8 +289,8 @@ body {
   margin: 40px;
   background: url("images/css.png") no-repeat;
   display: inline-block !important;
-  width: 120px !important;
-  height: 120px !important;
+  width: 100px !important;
+  height: 100px !important;
   background-position: center;
   background-size: contain;
   text-align: center;
@@ -335,8 +300,8 @@ body {
   margin: 40px;
   background: url("images/python-ConvertImage.png") no-repeat;
   display: inline-block !important;
-  width: 120px !important;
-  height: 120px !important;
+  width: 100px !important;
+  height: 100px !important;
   background-position: center;
   background-size: contain;
   text-align: center;
@@ -346,8 +311,8 @@ body {
   margin: 40px;
   background: url("images/python.png") no-repeat;
   display: inline-block !important;
-  width: 120px !important;
-  height: 120px !important;
+  width: 100px !important;
+  height: 100px !important;
   background-position: center;
   background-size: contain;
   text-align: center;
@@ -357,8 +322,8 @@ body {
   margin: 40px;
   background: url("images/dart-ConvertImage.png") no-repeat;
   display: inline-block !important;
-  width: 120px !important;
-  height: 120px !important;
+  width: 100px !important;
+  height: 100px !important;
   background-position: center;
   background-size: contain;
   text-align: center;
@@ -368,8 +333,8 @@ body {
   margin: 40px;
   background: url("images/dart.png") no-repeat;
   display: inline-block !important;
-  width: 120px !important;
-  height: 120px !important;
+  width: 100px !important;
+  height: 100px !important;
   background-position: center;
   background-size: contain;
   text-align: center;
@@ -379,8 +344,8 @@ body {
   margin: 40px;
   background: url("images/react-ConvertImage.png") no-repeat;
   display: inline-block !important;
-  width: 120px !important;
-  height: 120px !important;
+  width: 100px !important;
+  height: 100px !important;
   background-position: center;
   background-size: contain;
   text-align: center;
@@ -390,8 +355,8 @@ body {
   margin: 40px;
   background: url("images/react.png") no-repeat;
   display: inline-block !important;
-  width: 120px !important;
-  height: 120px !important;
+  width: 100px !important;
+  height: 100px !important;
   background-position: center;
   background-size: contain;
   text-align: center;
@@ -401,8 +366,8 @@ body {
   margin: 40px;
   background: url("images/django-ConvertImage.png") no-repeat;
   display: inline-block !important;
-  width: 120px !important;
-  height: 120px !important;
+  width: 100px !important;
+  height: 100px !important;
   background-position: center;
   background-size: contain;
   text-align: center;
@@ -412,8 +377,8 @@ body {
   margin: 40px;
   background: url("images/django.png") no-repeat;
   display: inline-block !important;
-  width: 120px !important;
-  height: 120px !important;
+  width: 100px !important;
+  height: 100px !important;
   background-position: center;
   background-size: contain;
   text-align: center;
@@ -423,8 +388,8 @@ body {
   margin: 40px;
   background: url("images/wordpress-ConvertImage.png") no-repeat;
   display: inline-block !important;
-  width: 120px !important;
-  height: 120px !important;
+  width: 100px !important;
+  height: 100px !important;
   background-position: center;
   background-size: contain;
   text-align: center;
@@ -434,8 +399,8 @@ body {
   margin: 40px;
   background: url("images/wordpress.png") no-repeat;
   display: inline-block !important;
-  width: 120px !important;
-  height: 120px !important;
+  width: 100px !important;
+  height: 100px !important;
   background-position: center;
   background-size: contain;
   text-align: center;
@@ -445,8 +410,8 @@ body {
   margin: 40px;
   background: url("images/flutter-ConvertImage.png") no-repeat;
   display: inline-block !important;
-  width: 120px !important;
-  height: 120px !important;
+  width: 100px !important;
+  height: 100px !important;
   background-position: center;
   background-size: contain;
   text-align: center;
@@ -456,8 +421,8 @@ body {
   margin: 40px;
   background: url("images/flutter.png") no-repeat;
   display: inline-block !important;
-  width: 120px !important;
-  height: 120px !important;
+  width: 100px !important;
+  height: 100px !important;
   background-position: center;
   background-size: contain;
   text-align: center;
@@ -467,8 +432,8 @@ body {
   margin: 40px;
   background: url("images/node-ConvertImage.png") no-repeat;
   display: inline-block !important;
-  width: 120px !important;
-  height: 120px !important;
+  width: 100px !important;
+  height: 100px !important;
   background-position: center;
   background-size: contain;
   text-align: center;
@@ -478,8 +443,8 @@ body {
   margin: 40px;
   background: url("images/node.png") no-repeat;
   display: inline-block !important;
-  width: 120px !important;
-  height: 120px !important;
+  width: 100px !important;
+  height: 100px !important;
   background-position: center;
   background-size: contain;
   text-align: center;
@@ -489,7 +454,7 @@ body {
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
-  font-size: 60px;
+  font-size: 50px;
   line-height: 90px;
   color: #ffffff;
 }
@@ -497,7 +462,7 @@ body {
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
-  font-size: 30px;
+  font-size: 26px;
   line-height: 36px;
 
   color: #ffffff;
@@ -516,7 +481,7 @@ body {
   border-radius: 20px;
 }
 .expect-card-image {
-  width: 100px;
+  width: 90px;
 }
 .expect-card-title {
   font-family: Poppins;
@@ -546,7 +511,7 @@ body {
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
-  font-size: 60px;
+  font-size: 50px;
   line-height: 90px;
 
   color: #333333;
@@ -555,7 +520,7 @@ body {
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
-  font-size: 30px;
+  font-size: 26px;
   line-height: 36px;
 
   color: #000000;
@@ -1169,7 +1134,7 @@ body {
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
-  font-size: 60px;
+  font-size: 50px;
   line-height: 90px;
 
   color: #333333;
@@ -1178,15 +1143,15 @@ body {
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
-  font-size: 30px;
+  font-size: 26px;
   line-height: 36px;
 
   color: #000000;
 }
 .input-box {
-  margin-bottom: 30px;
+  /* margin-bottom: 30px;
   margin-left: 30px;
-  margin-right: 30px;
+  margin-right: 30px; */
   padding-left: 35px;
   background: #ffffff;
   border: 1px solid #ff385c;
@@ -1195,8 +1160,8 @@ body {
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
-  font-size: 35px;
-  line-height: 52px;
+  font-size: 30px;
+  line-height: 45px;
 
   color: #5a5959;
 }
@@ -1207,13 +1172,18 @@ body {
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
-  font-size: 35px;
-  line-height: 52px;
+  font-size: 30px;
+  line-height: 45px;
   /* identical to box height */
   padding: 7px 70px;
   color: #ffffff;
 }
+.contact-image {
+  width: 100%;
+}
+
 /* **************************************************************************************************************************** */
+
 @media (min-width: 300px) and (max-width: 580px) {
   /* Navbar */
 
