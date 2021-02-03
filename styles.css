@@ -127,6 +127,19 @@ body {
   box-sizing: border-box;
   border-radius: 20px;
   padding: 25px;
+  width: 50%;
+  display: table-column;
+  margin-top: 5%;
+}
+.freelance-card-3 {
+  background: #ffffff;
+  border: 2px solid #ff385c;
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 25px;
+  width: 50%;
+  display: table-column;
+  margin-top: 15%;
 }
 .freelance-card-content {
   font-family: Poppins;
@@ -138,16 +151,21 @@ body {
   color: #000000;
 }
 .freelance-card-image-1 {
-  width: 619px;
+  width: 50%;
+  float: right !important;
 }
 .freelance-card-image-2 {
-  width: 628px;
+  width: 50%;
+  float: left !important;
 }
 .freelance-card-image-3 {
-  width: 487px;
+  width: 50%;
+  float: right !important;
 }
 .freelance-row {
-  margin: 5%;
+  margin: 10% 5%;
+  vertical-align: middle;
+  display: table;
 }
 .our-services {
   font-family: Poppins;
@@ -1324,6 +1342,15 @@ body {
     box-sizing: border-box;
     border-radius: 20px;
     padding: 10px;
+    width: 100%;
+  }
+  .freelance-card-3 {
+    background: #ffffff;
+    border: 2px solid #ff385c;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 10px;
+    width: 100%;
   }
   .freelance-card-content {
     font-family: Poppins;
@@ -1335,16 +1362,35 @@ body {
     color: #000000;
   }
   .freelance-card-image-1 {
-    width: 300px;
+    width: 100%;
+    margin-bottom: 50px;
   }
   .freelance-card-image-2 {
-    width: 300px;
+    width: 100%;
+    margin-bottom: 50px;
   }
   .freelance-card-image-3 {
-    width: 300px;
+    width: 100%;
   }
+  /* .freelance-row {
+    margin: 10% 5%;
+  }
+  .freelance-card-image-1 {
+    width: 50%;
+    float: right !important;
+  }
+  .freelance-card-image-2 {
+    width: 50%;
+    float: left !important;
+  }
+  .freelance-card-image-3 {
+    width: 50%;
+    float: right !important;
+  } */
   .freelance-row {
-    margin: 5%;
+    margin: 10% 5%;
+    vertical-align: middle;
+    display: table;
   }
   .our-services {
     font-family: Poppins;
@@ -2354,6 +2400,6 @@ body {
     color: #ffffff;
   }
   .contact-image {
-    width: 250px;
+    width: 100%;
   }
 }
